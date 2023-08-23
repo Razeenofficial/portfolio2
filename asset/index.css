@@ -1,0 +1,280 @@
+body{
+    background-color:#fefbe9;
+    padding: 30px;
+}
+header {
+background-color: #183a1d;
+color:#e1eedd;
+padding:10px;
+border: none;
+border-radius: 20px;
+}
+
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo {
+font-size: 1.5rem;
+font-family: 'Itim', cursive;
+font-weight: bold;
+
+}
+
+nav ul {
+list-style: none;
+display: flex;
+}
+
+nav li {
+margin-right: 5rem;
+font-size: 20px;
+font-weight: 500;
+font-family: 'Itim', cursive;
+font-weight: bold;
+}
+
+nav a {
+text-decoration: none;
+color: #e1eedd;
+}
+
+.home {
+max-width:1000px;
+margin: 0 auto;
+padding: 10px;
+display: flex;
+}
+.container{
+max-width: 1000px;
+margin: 0 auto;
+padding: 10px;
+text-align: center;
+}
+#pic{
+height: 50%;
+width: 30%;
+border: none;
+border-radius: 30%;
+padding: 10px;
+}
+
+#skillpic{
+height: 100px;
+width: 100px;
+}
+
+
+.break{
+width:100%;
+height:max-content;
+background-color: #183a1d;
+text-align: center;
+color:#F0EEED;
+border: none;
+border-radius: 10px;
+}
+
+.proj{
+    color:#000000;
+}
+
+
+/* latest */
+.social-buttons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: hwb(0 30% 69%);
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.social-button:hover {
+    background-color: #555;
+}
+
+.social-button img {
+    width: 30px;
+    height: 30px;
+}
+
+
+  .resumebtn {
+    margin-top: 6rem;
+
+  }
+  .resumebtn .btn {
+    padding: 1.7rem 3rem;
+    border-radius: 0.5em;
+    transition: 0.3s;
+    color: #fff;
+    background: #2506ad;
+    box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+    font-family: "Nunito", sans-serif;
+  }
+  .resumebtn .btn span {
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+  }
+ 
+  
+  .resumebtn .btn:hover {
+    background: #1a047e;
+  }
+  .resumebtn .btn:hover i {
+    transform: translateX(5px);
+  }
+
+
+
+  
+ .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    font-family: "Nunito";
+    font-weight: 600;
+  }
+ .box-container .box p {
+    text-transform: none;
+  }
+   .box-container .box p span {
+    color: #011aff;
+   }
+
+
+
+
+
+
+   
+ .content {
+    flex: 1 1 45rem;
+    padding: 3rem;
+  }
+  .about .content h3 {
+    color: rgb(27, 27, 27);
+    font-size: 2.5rem;
+  }
+   .tag {
+    font-size: 28px;
+    color: #020133;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+  .pcn {
+    font-size: 20px;
+    margin-top: 1.5rem;
+    font-family: "Nunito";
+    font-weight: 600;
+    text-transform: none;
+  }
+
+
+
+
+
+.skill-container{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+width: minmax(25rem, auto) !important; /* fallback */
+}
+
+.image-item {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.image-item img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+
+
+.link-grid{
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  
+width: minmax(25rem, auto) !important; 
+}
+
+
+
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  text-align: center;
+}
+
+
+
+#projectpic {
+
+  height: 50px;
+
+
+}
+
+
+
+
+#rb {
+  border: 1px solid black;
+  background-color:dodgerblue;
+  color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+  font-size: 28px;
+
+}
+
+#rb:focus {
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 4px #5a01a7;
+  transition: 0.7s;
+}
+.end {
+  color: #000000;
+}
