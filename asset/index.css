@@ -59,7 +59,8 @@ height: 50%;
 width: 30%;
 border: none;
 border-radius: 30%;
-padding: 10px;
+padding: 15px;
+background-color: yellow;
 }
 
 #skillpic{
@@ -159,6 +160,9 @@ border-radius: 10px;
 
 
 
+
+
+
    
  .content {
     flex: 1 1 45rem;
@@ -183,6 +187,9 @@ border-radius: 10px;
   }
 
 
+
+
+
 .skill-container{
   
     display: flex;
@@ -196,7 +203,7 @@ border-radius: 10px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
-width: minmax(25rem, auto) !important; /* fallback */
+width: minmax(25rem, auto) !important;
 }
 
 .image-item {
@@ -216,10 +223,12 @@ width: minmax(25rem, auto) !important; /* fallback */
 
 
 .link-grid{
+
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
-  width: minmax(25rem, auto) !important; 
+  
+width: minmax(25rem, auto) !important; 
 }
 
 
@@ -235,7 +244,10 @@ width: minmax(25rem, auto) !important; /* fallback */
 
 
 #projectpic {
+
   height: 50px;
+
+
 }
 
 
